@@ -4,7 +4,7 @@ package com.gp.learn.pattern.adapter;
  * @author wjzhu
  * @createDate 2019-05-04 16:53
  */
-public class ThirdAdapter extends Pay {
+public class ThirdAdapter {
 
     public void payForAli(){
         processPay(AliPayAdapter.class);

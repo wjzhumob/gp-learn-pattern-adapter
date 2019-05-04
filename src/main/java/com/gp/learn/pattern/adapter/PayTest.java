@@ -7,7 +7,6 @@ package com.gp.learn.pattern.adapter;
 public class PayTest {
     public static void main(String[] args) {
         ThirdAdapter third = new ThirdAdapter();
-        third.pay();
         third.payForAli();
         third.payForWechat();
     }
